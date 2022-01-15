@@ -1,0 +1,182 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #3d087b;
+}
+
+.time-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.upper-card {
+  position: absolute;
+  background-color: #fff;
+  width: 426px;
+  height: 100px;
+  z-index: 3;
+  border-radius: 10px;
+}
+.clock {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-size: 22px;
+  color: #3d087b;
+}
+
+#a-hour {
+  background-image: url(./img/timeline.png);
+  padding: 8px;
+}
+#a-minutes {
+  background-image: url(./img/timeline.png);
+  padding: 8px;
+}
+
+#a-second {
+  background-image: url(./img/timeline.png);
+  padding: 8px;
+}
+#a-am-pm {
+  background-image: url(./img/AM_bg.png);
+  padding: 8px;
+  color: white;
+}
+
+.middle_card {
+  position: absolute;
+  background-color: white;
+  opacity: 0.7;
+  width: 336px;
+  height: 100px;
+  z-index: 2;
+  transform: translateY(15px);
+  border-radius: 10px;
+  left: 65%;
+}
+.lower_card {
+  position: relative;
+  background-color: white;
+  opacity: 0.5;
+  width: 300px;
+  height: 100px;
+  z-index: 1;
+  transform: translateY(30px);
+  border-radius: 10px;
+  left: 20%;
+  box-shadow: 20px 20px 60px #3d087b, -20px -20px 60px #3d087b;
+}
+
+.content_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.time_set_card {
+  width: 566px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.time p {
+  font-size: 23px;
+  color: #3d087b;
+  font-family: "Times New Roman", Times, serif;
+}
+.time select {
+  font-size: 20px;
+  width: 150px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.wake_time {
+  display: flex;
+  justify-content: space-around;
+}
+.lunch_time {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nap_time {
+  display: flex;
+  justify-content: space-around;
+}
+#greeting_msg {
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  color: white;
+  margin: 10px 0px;
+  /* background-color: #464444; */
+  padding: 20px 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+.party_msg {
+  border-radius: 4px;
+  opacity: 1;
+  color: white;
+  background: linear-gradient(to left, #6e54ec, #cb52f8, #fc5eff, #f1a7c5);
+  width: 50%;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.content_image {
+  background-color: white;
+  width: 450px;
+  height: 400px;
+}
+
+#food_msg {
+  font-size: 25px;
+  color: #6e54ec;
+  position: absolute;
+  margin: 20px 0px 0px 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+#b_image {
+  background-image: url(./img/b.png);
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 300px;
+  margin-top: 21%;
+  margin-left: 10%;
+}
+
+#ver-line1 {
+  position: absolute;
+  top: 43%;
+  left: 10.5%;
+  height: 10%;
+  border-left: 1px solid #c2c2c2;
+}
+
+#ver-line2 {
+  position: absolute;
+  top: 59%;
+  left: 10.5%;
+  height: 9%;
+  border-left: 1px solid #c2c2c2;
+}
+
+#box {
+  height: 150px;
+  width: 300px;
+  border: 2px solid #3d087a;
+}
