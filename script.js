@@ -22,18 +22,18 @@ function displayGreetings() {
   let lunchtime = document.getElementById("lunch_time").value;
   let naptime = document.getElementById("nap_time").value;
 
-  if (waketime != hours) {
+  if (waketime == hours) {
     document.getElementById("b_image").style.backgroundImage =
       "url(./img/openCurtains.png)";
     document.getElementById("food_msg").innerHTML = "Let's have some breakfast";
   }
 
-  if (lunchtime != hours) {
+  if (lunchtime == hours) {
     document.getElementById("b_image").style.backgroundImage =
       "url(./img/lunchImage.png)";
     document.getElementById("food_msg").innerHTML = "Let's have lunch";
   }
-  if (naptime != hours) {
+  if (naptime == hours) {
     document.getElementById("b_image").style.backgroundImage =
       "url(./img/sleepScore.png)";
     document.getElementById("food_msg").innerHTML = "Let's have some dinner";
