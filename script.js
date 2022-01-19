@@ -24,7 +24,7 @@ function displayGreetings() {
 
   if (waketime == hours) {
     document.getElementById("b_image").style.backgroundImage =
-      "url(./img/openCurtains.png)";
+    "url(./img/openCurtains.png)";
     document.getElementById("food_msg").innerHTML = "Let's have some breakfast";
   }
 
@@ -73,22 +73,4 @@ function displayValue() {
   } else {
     document.getElementById("nap").innerHTML = "Nap time : " + invalue3;
   }
-}
-
-function wakeTime() {
-  document.getElementById("b_image").style.backgroundImage =
-    "url(./img/openCurtains.png)";
-  document.getElementById("food_msg").innerHTML = "Let's have some breakfast";
-}
-
-function lunchTime() {
-  document.getElementById("b_image").style.backgroundImage =
-    "url(./img/lunchImage.png)";
-  document.getElementById("food_msg").innerHTML = "Let's have lunch";
-}
-
-function napTime() {
-  document.getElementById("b_image").style.backgroundImage =
-    "url(./img/sleepScore.png)";
-  document.getElementById("food_msg").innerHTML = "Let's have some dinner";
 }
